@@ -7,7 +7,7 @@ int main()
     system("chcp 65001 >nul");
     cout << "\033[93m"; // kuning
     cout << "🌼⋆｡ﾟ☁｡⋆｡  PERPUSKITA  ｡⋆｡☁ﾟ｡⋆🌼\n";
-    cout << "      Sistem Informasi Perpustakaan\n";
+    cout << "   Sistem Informasi Perpustakaan\n";
     cout << "🌼⋆｡ﾟ☁｡⋆｡───────────────｡⋆｡☁ﾟ｡⋆🌼\n\n";
     cout << "\033[0m";
     cout << "Masukkan Username\n";
