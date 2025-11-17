@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+string color (int r, int g, int b) {
+    return "\003[38;2;" + to_string(r) + ";" + to_string(g) + ";" + to_string(b) + "m";
+}
+
+int main() {
+    string text;
+    cout << R"(
+
+       .--.                   .---.
+   .---|__|           .-.     |~~~|
+.--|===|--|_          |_|     |~~~|--.
+|  |===|  |'\     .---!~|  .--|   |--|
+|%%|   |  |.'\    |===| |--|%%|   |  |
+|%%|   |  |\.'\   |   | |__|  |   |  |
+|  |   |  | \  \  |===| |==|  |   |  |
+|  |   |__|  \.'\ |   |_|__|  |~~~|__|
+|  |===|--|   \.'\|===|~|--|%%|~~~|--|
+^--^---'--^    `-'`---^-^--^--^---'--' hjw
+
+               )";
+    int startR = 0, startG = 150, startB = 255;
+    int endR = 0, endG = 255, endB = 100;
+
+    int len = text.size();
+
+}
