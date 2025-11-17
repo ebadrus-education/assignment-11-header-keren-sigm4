@@ -25,5 +25,19 @@ int main() {
     int endR = 0, endG = 255, endB = 100;
 
     int len = text.size();
+for (int i = 0 ; i < len; i++) {
+        float t = (float) i / (len - 1);
+        int r = startR + t * (endR - startR);
+        int g = startG + t * (endG - startG);
+        int b = startB + t * (endB - startB);
+
+    cout << color(r, g, b) << text[i];
+    }
+        cout << "\033[0m\n\n"; //reset warna
+
+    cout << "Selamat datang di Sistem Informasi Perpustakaan Jendela Pustaka\n\n";
+    cout << "Username login: ";
+    string username;
+    cin >> username;
 
 }
