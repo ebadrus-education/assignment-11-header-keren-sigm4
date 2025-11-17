@@ -5,14 +5,14 @@ int main()
 {
     //CONTOH 1
     system("chcp 65001 >nul");
-    cout << "\033[95m"; // warna ungu muda
-    cout << "CONTOH 1\n";
-    cout << "•───────•°•❀•°•───────•\n";
-    cout << "       PERPUSKITA\n";
-    cout << "•───────•°•❀•°•───────•\n";
+    cout << "\033[93m"; // kuning
+    cout << "🌼⋆｡ﾟ☁｡⋆｡  PERPUSKITA  ｡⋆｡☁ﾟ｡⋆🌼\n";
+    cout << "      Sistem Informasi Perpustakaan\n";
+    cout << "🌼⋆｡ﾟ☁｡⋆｡───────────────｡⋆｡☁ﾟ｡⋆🌼\n\n";
     cout << "\033[0m";
-    cout << "╰┈➤ USERNAME LOGIN : \n\n\n";
-
+    cout << "Masukkan Username\n";
+    cout << "➤ : ";
+    
     //CONTOH 2
     cout << "\033[36m"; 
     cout << "CONTOH 2\n";
