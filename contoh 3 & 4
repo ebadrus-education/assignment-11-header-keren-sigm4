@@ -2,12 +2,11 @@
 
 using namespace std;
 string color (int r, int g, int b) {
-    return "\003[38;2;" + to_string(r) + ";" + to_string(g) + ";" + to_string(b) + "m";
+    return "\033[38;2;" + to_string(r) + ";" + to_string(g) + ";" + to_string(b) + "m";
 }
 
 int main() {
-    string text;
-    cout << R"(
+    string text= R"(
 
        .--.                   .---.
    .---|__|           .-.     |~~~|
@@ -35,7 +34,6 @@ for (int i = 0 ; i < len; i++) {
     }
         cout << "\033[0m\n\n"; //reset warna
 
-    cout << "Selamat datang di Sistem Informasi Perpustakaan Jendela Pustaka\n\n";
     cout << "Username login: ";
     string username;
     cin >> username;
